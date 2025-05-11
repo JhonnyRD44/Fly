@@ -1,5 +1,5 @@
 local plr = game.Players.LocalPlayer
-local char = plr.Character or plr.Character:Wait()
+local char = plr.Character or plr.CharacterAdded:Wait()
 local hrp = char:WaitForChild("HumanoidRootPart")
 local humanoid = char:WaitForChild("Humanoid")
 local fly = false
